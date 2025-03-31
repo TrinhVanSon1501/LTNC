@@ -1,0 +1,13 @@
+B1: Khởi tạo: Chúng ta có mảng đã được sắp xếp và phần tử cần tìm.
+
+B2: Bước chia đôi: Mỗi lần tìm kiếm, chúng ta sẽ tính chỉ số phần tử ở giữa mảng.
+
+B3: So sánh:
+
+    -Nếu phần tử ở giữa bằng phần tử cần tìm, thuật toán dừng lại và trả về chỉ số của phần tử.
+
+    -Nếu phần tử ở giữa lớn hơn phần tử cần tìm, chúng ta tiếp tục tìm kiếm trong nửa mảng bên trái.
+
+    -Nếu phần tử ở giữa nhỏ hơn phần tử cần tìm, chúng ta tiếp tục tìm kiếm trong nửa mảng bên phải.
+
+B4; Điều kiện dừng: Nếu phạm vi tìm kiếm không còn phần tử nào (chỉ số trái > chỉ số phải), thuật toán dừng lại và trả về giá trị "không tìm thấy".
